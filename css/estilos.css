@@ -6,19 +6,22 @@ html{
 
     box-sizing: inherit;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .nombre-sitio{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 .nombre-sitio span{
 
     color: #037bc0;
 }
-.enlace{
+.navegacion-principal{
 
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-    color: #037bc0
+   border-top: 1px solid #e1e1e1;
+   padding: 20px 0;
 
 }
