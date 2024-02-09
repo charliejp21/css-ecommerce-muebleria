@@ -11,6 +11,10 @@ html{
     max-width: 1200px;
     margin: 0 auto;
 }
+img{
+    max-width: 100%;
+    display: block;
+}
 a{
     text-decoration: none;
     color: black;
@@ -41,4 +45,29 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
+}
+.categorias h2{
+
+    text-align:center;
+
+}
+.categoria a{
+
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.categoria a:hover{
+
+    background-color: #037bc0;
+    color: #fff;
+    border-top-right-radius: 10px;
+}
+.listado-categorias{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
