@@ -71,3 +71,25 @@ a{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.sobre-nosotros{
+
+    background-image: linear-gradient(to Right, transparent 50%, #037bc0 50%, #037bc0 100%), url('../imgs/nosotros.jpg');
+    background-repeat: no-repeat;
+    padding: 10rem 0;
+    background-position: left center;
+    background-size: 100%, 120rem;
+}
+.sobre-nosotros-grid{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8rem;
+
+}
+
+.texto-nosotros{
+
+    grid-column: 2 / 3;
+    color: #fff;
+
+}
